@@ -1,0 +1,6 @@
+export const GET_DATA = 'GET_DATA'
+export const REMOVE_USER = 'REMOVE_USER'
+export const GET_EVENTS = 'GET_EVENTS'
+export const AUTH = 'AUTH'
+export const AUTH_PROGRESS_ON = 'AUTH_PROGRESS_ON'
+export const AUTH_PROGRESS_OFF = 'AUTH_PROGRESS_OFF'
