@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-webSocket-antDesign/static/css/main.4fd8efe2.css",
-    "main.js": "/react-webSocket-antDesign/static/js/main.6aa2ccf7.js",
+    "main.css": "/react-webSocket-antDesign/static/css/main.661719f4.css",
+    "main.js": "/react-webSocket-antDesign/static/js/main.81b262cf.js",
     "static/media/Preloader.svg": "/react-webSocket-antDesign/static/media/Preloader.85e15ac8b74e6c9d7c68307315005dd0.svg",
     "index.html": "/react-webSocket-antDesign/index.html",
-    "main.4fd8efe2.css.map": "/react-webSocket-antDesign/static/css/main.4fd8efe2.css.map",
-    "main.6aa2ccf7.js.map": "/react-webSocket-antDesign/static/js/main.6aa2ccf7.js.map"
+    "main.661719f4.css.map": "/react-webSocket-antDesign/static/css/main.661719f4.css.map",
+    "main.81b262cf.js.map": "/react-webSocket-antDesign/static/js/main.81b262cf.js.map"
   },
   "entrypoints": [
-    "static/css/main.4fd8efe2.css",
-    "static/js/main.6aa2ccf7.js"
+    "static/css/main.661719f4.css",
+    "static/js/main.81b262cf.js"
   ]
 }
