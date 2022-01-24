@@ -1,0 +1,72 @@
+.shop {
+    margin: 10px;
+}
+
+.cardStyle {
+    overflow: hidden;
+    min-width: 300px;
+    max-width: 300px;
+    border-radius: 20px;
+}
+
+.cardImg {
+    position: relative;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.discount {
+    position: absolute;
+    bottom: -1%;
+    left: 7%;
+    padding: 0px 4px;
+    border-radius: 10px;
+    color: #cb11ab;
+    background-color: #fdeef9;
+    font-weight: bold;
+}
+
+/* =====================цены======================== */
+
+.price {
+    padding: 0 10px 0 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.oldPrice {
+    font-size: 14px;
+    font-weight: bold;
+    color: #8c8e93;
+    position: relative;
+}
+
+.oldPrice::before {
+    content: "";
+    border-bottom: 2px solid #8c8e93;
+    position: absolute;
+    width: 100%;
+    top: 9px;
+}
+
+.priceByCard {
+    color: #cb11ab;
+    font-weight: bold;
+}
+
+/* =====================Хлебные крошки======================== */
+
+.breadCrumbs a{
+    color: #8c8e93;
+}
+.breadCrumbs a:hover{
+    color: #cb11ab;
+}
+
+/* =====================Звёздный рейтинг======================== */
+
+.rate {
+    color: #8c8e93;
+    padding-left: 5px;
+}

@@ -61,7 +61,10 @@ export const Users = ({ users, removeUser, limit, handlerDate }) => {
           <Table
             dataSource={dataSource}
             columns={columns}
-            pagination={{ pageSize: String(limit) }}
+            pagination={{
+              pageSize: '2',
+              //  String(limit)
+            }}
           />
         </Col>
       </Row>
