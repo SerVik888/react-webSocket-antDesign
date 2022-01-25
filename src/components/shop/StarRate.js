@@ -13,8 +13,12 @@ export const StarRate = () => {
 
   return (
     <span>
-      <Rate tooltips={desc} onChange={handleChange} value={stars} />
-      {stars ? <span className={s.rate}>{stars - 1}</span> : stars}
+      <Rate className={s.starsRate} tooltips={desc} onChange={handleChange} value={stars} />
+      {stars ? (
+        <span className={s.rateNumber}>{stars - 1}</span>
+      ) : (
+        <span className={s.rateNumber}>stars</span>
+      )}
     </span>
   )
 }

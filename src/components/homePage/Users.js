@@ -1,6 +1,6 @@
 import { Button, Col, Row, Table, Typography } from 'antd'
 import React from 'react'
-import { Preloader } from './preloader/Preloader'
+import { Preloader } from '../preloader/Preloader'
 
 export const Users = ({ users, removeUser, limit, handlerDate }) => {
   if (!users) {

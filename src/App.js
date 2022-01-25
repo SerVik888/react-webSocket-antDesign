@@ -6,7 +6,7 @@ import { Shop } from './components/shop/Shop'
 import { Route, Routes } from 'react-router-dom'
 
 import { NotFoundPage } from './components/NotFoundPage'
-import { HomePage } from './components/HomePage'
+import { HomePage } from './components/homePage/HomePage'
 import { Layout } from 'antd'
 import { AppContext } from './context/appContext/AppContext'
 

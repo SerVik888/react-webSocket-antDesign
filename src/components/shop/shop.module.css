@@ -1,25 +1,49 @@
 .shop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     margin: 10px;
+    background-color: #fff;
 }
 
 .cardStyle {
-    overflow: hidden;
-    min-width: 300px;
-    max-width: 300px;
+    margin: 10px;
+    padding-bottom: 15px;
+    width: 300px;
     border-radius: 20px;
+    box-shadow: 0px 0px 3px #777777;
 }
 
+/* ===================== Блок с картинкой ======================== */
+
 .cardImg {
+    padding: 10px;
+    border-radius: 20px;
+    z-index: 10;
+}
+
+.cardImgWrapper {
     position: relative;
     margin-bottom: 10px;
+    z-index: 5;
+}
+.previewButton {
+    position: absolute;
+    height: 40px;
+    left: 57px;
+    bottom: 169px;
+    z-index: 1;
+    color: black;
+    border: none;
     border-radius: 20px;
-    overflow: hidden;
+    background-color: #fff;
+    opacity: 0.7;
 }
 
 .discount {
     position: absolute;
-    bottom: -1%;
-    left: 7%;
+    bottom: 0px;
+    left: 3px;
     padding: 0px 4px;
     border-radius: 10px;
     color: #cb11ab;
@@ -57,16 +81,57 @@
 
 /* =====================Хлебные крошки======================== */
 
-.breadCrumbs a{
+.breadCrumbs a {
     color: #8c8e93;
 }
-.breadCrumbs a:hover{
+
+.breadCrumbs a:hover {
     color: #cb11ab;
 }
 
 /* =====================Звёздный рейтинг======================== */
 
-.rate {
+.starsRate {
+    color: #cb11ab;
+}
+.rateNumber {
     color: #8c8e93;
-    padding-left: 5px;
+    padding-left: 7px;
+}
+
+/* =====================Рассрочка======================== */
+
+.installmentsCardWrapper {
+    margin: 15px 0 22px 0;
+}
+
+.installmentsCard {
+    padding: 8px;
+    margin:auto;
+    border-radius: 20px;
+    background: linear-gradient(to left,  #ecff4c, #d2ffe9);
+    font-weight: bold;
+}
+
+/* =====================иконка и кнопка======================== */
+
+.buttonCardWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.buttonCard {
+    font-size: 12px;
+    padding: 1px 18px 5px 18px;
+    margin-right: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+    background-color: #cb11ab ;
+}
+
+.iconCard{
+    font-size: 20px;
+    color:#cb11ab;
 }

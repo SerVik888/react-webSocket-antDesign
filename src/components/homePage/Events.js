@@ -1,6 +1,6 @@
 import { Col, Row, Table, Typography } from 'antd'
 import React, { useEffect } from 'react'
-import { Preloader } from './preloader/Preloader'
+import { Preloader } from '../preloader/Preloader'
 
 export const Events = ({ handlerDate, events, setEvents }) => {
   useEffect(() => {
