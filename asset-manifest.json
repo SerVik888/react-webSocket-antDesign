@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-webSocket-antDesign/static/css/main.025e96c0.css",
-    "main.js": "/react-webSocket-antDesign/static/js/main.db58fae1.js",
+    "main.css": "/react-webSocket-antDesign/static/css/main.21c57f70.css",
+    "main.js": "/react-webSocket-antDesign/static/js/main.463c2c0b.js",
     "static/media/phone.jpg": "/react-webSocket-antDesign/static/media/phone.0d1dc8114da59aee36d8.jpg",
     "static/media/Preloader.svg": "/react-webSocket-antDesign/static/media/Preloader.85e15ac8b74e6c9d7c68307315005dd0.svg",
     "index.html": "/react-webSocket-antDesign/index.html",
-    "main.025e96c0.css.map": "/react-webSocket-antDesign/static/css/main.025e96c0.css.map",
-    "main.db58fae1.js.map": "/react-webSocket-antDesign/static/js/main.db58fae1.js.map"
+    "main.21c57f70.css.map": "/react-webSocket-antDesign/static/css/main.21c57f70.css.map",
+    "main.463c2c0b.js.map": "/react-webSocket-antDesign/static/js/main.463c2c0b.js.map"
   },
   "entrypoints": [
-    "static/css/main.025e96c0.css",
-    "static/js/main.db58fae1.js"
+    "static/css/main.21c57f70.css",
+    "static/js/main.463c2c0b.js"
   ]
 }
