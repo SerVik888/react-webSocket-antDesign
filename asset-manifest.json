@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-webSocket-antDesign/static/css/main.1df0d8e5.css",
-    "main.js": "/react-webSocket-antDesign/static/js/main.e1c60411.js",
+    "main.js": "/react-webSocket-antDesign/static/js/main.bac6a219.js",
     "static/media/phone.jpg": "/react-webSocket-antDesign/static/media/phone.0d1dc8114da59aee36d8.jpg",
     "static/media/Preloader.svg": "/react-webSocket-antDesign/static/media/Preloader.85e15ac8b74e6c9d7c68307315005dd0.svg",
     "index.html": "/react-webSocket-antDesign/index.html",
     "main.1df0d8e5.css.map": "/react-webSocket-antDesign/static/css/main.1df0d8e5.css.map",
-    "main.e1c60411.js.map": "/react-webSocket-antDesign/static/js/main.e1c60411.js.map"
+    "main.bac6a219.js.map": "/react-webSocket-antDesign/static/js/main.bac6a219.js.map"
   },
   "entrypoints": [
     "static/css/main.1df0d8e5.css",
-    "static/js/main.e1c60411.js"
+    "static/js/main.bac6a219.js"
   ]
 }
