@@ -68,7 +68,7 @@ export const Users = ({ data, removeUser, limit, handlerDate, setData }) => {
             pagination={{
               pageSize: String(limit),
               total: data.total,
-              onChange: (currentPage, pageSize) => setData(currentPage * pageSize - 6),
+              onChange: (currentPage, pageSize) => setData((currentPage - 1) * pageSize),
             }}
           />
         </Col>
