@@ -15,11 +15,17 @@ const handlerDate = (date) => {
   return `${D}.${M}.${Y} ${h}:${m}`
 }
 
-export const HomePage = ({ users, removeUser, limit, events, setEvents }) => {
+export const HomePage = ({ data, removeUser, limit, events, setEvents, setData }) => {
   return (
     <Row>
       <Col span={16}>
-        <Users users={users} removeUser={removeUser} limit={limit} handlerDate={handlerDate} />
+        <Users
+          data={data}
+          setData={setData}
+          removeUser={removeUser}
+          limit={limit}
+          handlerDate={handlerDate}
+        />
       </Col>
       <Col span={8}>
         <Events handlerDate={handlerDate} events={events} setEvents={setEvents} />

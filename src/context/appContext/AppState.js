@@ -45,9 +45,9 @@ export const AppState = ({ children }) => {
     authDispatch({ type: AUTH_PROGRESS_OFF })
   }
 
-  const setData = async () => {
+  const setData = async (offset = 0) => {
     try {
-      const data = await API.getUsers()
+      const data = await API.getUsers(offset)
       dataDispatch({ type: GET_DATA, data })
     } catch (e) {
       console.log(e)

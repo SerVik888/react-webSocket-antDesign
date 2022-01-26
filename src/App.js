@@ -16,10 +16,6 @@ function App() {
 
   const { Content, Header } = Layout
 
-  useEffect(() => {
-    setData()
-  }, [])
-
   if (!auth) return <Auth authRequest={authRequest} authProgress={authProgress} />
 
   return (
@@ -33,7 +29,8 @@ function App() {
             path="/"
             element={
               <HomePage
-                users={data.items}
+                setData={setData}
+                data={data}
                 removeUser={removeUser}
                 limit={data.limit}
                 events={events}

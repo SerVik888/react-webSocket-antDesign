@@ -1,9 +1,13 @@
 import { Button, Col, Row, Table, Typography } from 'antd'
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Preloader } from '../preloader/Preloader'
 
-export const Users = ({ users, removeUser, limit, handlerDate }) => {
-  if (!users) {
+export const Users = ({ data, removeUser, limit, handlerDate, setData }) => {
+  useEffect(() => {
+    setData()
+  }, [])
+
+  if (!data.items) {
     return <Preloader />
   }
 
@@ -47,7 +51,7 @@ export const Users = ({ users, removeUser, limit, handlerDate }) => {
     },
   ]
 
-  const dataSource = users.map((item) => ({ ...item, key: item.id }))
+  const dataSource = data.items.map((item) => ({ ...item, key: item.id }))
 
   return (
     <>
@@ -62,8 +66,9 @@ export const Users = ({ users, removeUser, limit, handlerDate }) => {
             dataSource={dataSource}
             columns={columns}
             pagination={{
-              pageSize: '2',
-              //  String(limit)
+              pageSize: String(limit),
+              total: data.total,
+              onChange: (currentPage, pageSize) => setData(currentPage * pageSize - 6),
             }}
           />
         </Col>
